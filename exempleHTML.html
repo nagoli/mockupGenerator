@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Déclaration Accident de Travail</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet/less" href="css/main.less">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="page step_00">
+        <h1 id="titre">Déclaration d'accident du travail ou de trajet</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="figure">
+              <div class="figcaption">
+                <div id="text-container">
+                  <div id="accueil-corps-question">
+                    <p>Munissez-vous des informations utiles : noms des victimes, témoins, tiers, ...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 noPadLeft">
+            <div class="bloc">
+              <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="tooltip" data-placement="top" title="Tooltip on bottom">Déclarer <span>un accident</span></button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Consulter <span>les déclarations effectuées en ligne</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page step_00">
+        <h1 id="titre">Déclaration d'accident du travail ou de trajet</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="figure">
+              <div class="figcaption">
+                <div id="text-container">
+                  <div id="accueil-corps-question">
+                    <p>Munissez-vous des informations utiles : noms des victimes, témoins, tiers, ...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 noPadLeft">
+            <div class="bloc">
+              <button type="button" class="btn btn-primary btn-lg btn-block">Continuer votre déclaration <span>d'accident du travail du 14 mai 2014</span></button>
+              <button type="button" class="btn btn-secondary btn-lg btn-block">Déclarer un nouvel accident <span>du travail ou du trajet</span></button>
+              <button type="button" class="btn btn-secondary btn-lg btn-block">Consulter vos précédentes <span>déclarations</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page step_01">
+        <div id="barre-etapes" style="">
+          <ul class="">
+            <li class="left actif">
+                <span class="etape">1</span>
+                <span class="text">L'accident</span>
+                <span class="etat" style=""></span>
+            </li>
+            <li class="">
+                <span class="etape">2</span>
+                <span class="text">La victime</span>
+                <span class="etat"></span>
+            </li>
+            <li>
+                <span class="etape">3</span>
+                <span class="text">Les circonstances</span>
+                <span class="etat"></span>
+            </li>
+            <li>
+                <span class="etape">4</span>
+                <span class="text">Les conséquences</span>
+                <span class="etat"></span>
+            </li>
+            <li class="right">
+                <span class="etape">5</span>
+                <span class="text">Récapitulatif</span>
+                <span class="etat"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="chf-header">
+          <div class="chf-header-icon picto">&nbsp;</div>
+          <h3>L'accident</h3>
+        </div>
+        <div class="bloc">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fordateaccident" class="control-label col-md-3"><span class="txt-label">l'accident à eu lieu le</span> </label>
+                <div class="col-md-9 bloc-question-reponses">
+                  <div class="line">
+                    <div class="col-md-3 input-date">
+                      <div class="input-group">
+                        <input type="date" class="form-control" id="fordateaccident" value="JJ/MM/AAAA">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                      </div>
+                    </div>
+                    <div class="input-time">
+                      <div class="input-group">
+                        <span class="label">à</span>
+                        <input type="time" class="form-control form-control-short" id="forheure" value="HH">
+                        <span class="label">h</span>
+                        <input type="time" class="form-control form-control-short" id="forminute" value="MM">
+                      </div>
+                    </div>
+                    <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span>
+                  </div>
+                  <div class="line">
+                    <div class="col-md-12">
+                      <div class="button-group radio-button-group">
+                        <div class="button-group-item radio-button-group-item">
+                          <div class="picto picto-tick"></div>sur le lieu de travail
+                        </div>
+                        <div class="button-group-item radio-button-group-item button-group-item-selected">
+                          <div class="picto picto-tick"></div>durant un trajet
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="line">
+                    <div class="input-group">
+                      <span class="label">entre</span>
+                      <input type="text" class="form-control form-control-medium" id="forheure" value="lieu de départ">
+                      <span class="label">et</span>
+                      <input type="text" class="form-control form-control-medium" id="forminute" value="lieu d'arrivée">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="forplaceaccident" class="control-label col-md-3"><span class="txt-label">Précisez l'endroit exact ou a eu lieu l'accident</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-9 bloc-question-reponses">
+                  <textarea class="form-control" rows="3" id="forplaceaccident"></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="chf-footer">
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-annuler">Abandonner<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-continu-after">Continuer plus tard<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-precedent">Précédent<span class="picto picto-precedent"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-suivant">Suivant<span class="picto picto-suivant"></span></button>
+        </div>
+      </div>
+      <div class="page step_02">
+        <div id="barre-etapes" style="">
+          <ul class="">
+            <li class="left passee">
+                <span class="etape">1</span>
+                <span class="text">L'accident</span>
+                <span class="etat" style=""></span>
+            </li>
+            <li class="actif">
+                <span class="etape">2</span>
+                <span class="text">La victime</span>
+                <span class="etat"></span>
+            </li>
+            <li>
+                <span class="etape">3</span>
+                <span class="text">Les circonstances</span>
+                <span class="etat"></span>
+            </li>
+            <li>
+                <span class="etape">4</span>
+                <span class="text">Les conséquences</span>
+                <span class="etat"></span>
+            </li>
+            <li class="right">
+                <span class="etape">5</span>
+                <span class="text">Récapitulatif</span>
+                <span class="etat"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="chf-header">
+          <div class="chf-header-icon picto">&nbsp;</div>
+          <h3>La victime</h3>
+        </div>
+        <form class="form-horizontal" role="form">
+          <div class="bloc">
+            <p>Sélectionnez la personne victime de l'accident parmi les personnes rattachées à l'exploitation de Jean Dupont (chef d'exploitation) qui exerce une activité principale d'Elevage de bovins.</p>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="thumbnail">
+                  <div class="figure">
+                    <img src="img/user.png" alt="...">
+                    <div class="figcaption">
+                      <input type="checkbox" class="form-control" id="forvictime1">
+                    </div>
+                  </div>
+                  <div class="caption">
+                    <h3><label for="forvictime1">Jean Dupont</label></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail">
+                  <div class="figure">
+                    <img src="img/user.png" alt="...">
+                    <div class="figcaption">
+                      <input type="checkbox" class="form-control" id="forvictime2">
+                    </div>
+                  </div>
+                  <div class="caption">
+                    <h3><label class="forvictime2">Jeanne Dupont</label></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail">
+                  <div class="figure">
+                    <img src="img/user.png" alt="...">
+                    <div class="figcaption">
+                      <input type="checkbox" class="form-control" id="forvictime3">
+                    </div>
+                  </div>
+                  <div class="caption">
+                    <h3><label id="forvictime3">Charles Dupuis <span class="">Aide Familial</span> <span class="">1000533063063</span></label></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="thumbnail">
+                  <div class="figure">
+                    <img src="img/user.png" alt="...">
+                    <div class="figcaption">
+                       <i class="glyphicon glyphicon-plus"></i>
+                    </div>
+                  </div>
+                  <div class="caption">
+                    <h3>Il s'agit d'une autre personne</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bloc">
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fornomvictime" class="control-label col-md-3"><span class="txt-label">Nom</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-9 bloc-question-reponses">
+                  <input type="text" class="form-control" id="fornomvictime">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="forprenomvictime" class="control-label col-md-3"><span class="txt-label">Prénom</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-9 bloc-question-reponses">
+                  <input type="text" class="form-control" id="forprenomvictime">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fornaissancevictime" class="control-label col-md-3"><span class="txt-label">Date de naissance</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-9 bloc-question-reponses">
+                  <div class="input-date">
+                      <div class="input-group">
+                        <input type="date" class="form-control" id="fornaissancevictime" value="JJ/MM/AAAA">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="forimmatriculationvictime" class="control-label col-md-3"><span class="txt-label">Numéro d'immatriculation</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-9 bloc-question-reponses">
+                  <input type="text" class="form-control" id="forimmatriculationvictime">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="forsexevictime" class="control-label col-md-3"><span class="txt-label">Sexe</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-9 bloc-question-reponses">
+                  <div class="button-group radio-button-group">
+                    <div class="button-group-item radio-button-group-item">
+                      <div class="picto picto-tick"></div>Féminin
+                    </div>
+                    <div class="button-group-item radio-button-group-item button-group-item-selected">
+                      <div class="picto picto-tick"></div>Masculin
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="chf-footer">
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-annuler">Abandonner<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-continu-after">Continuer plus tard<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-precedent">Précédent<span class="picto picto-precedent"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-suivant">Suivant<span class="picto picto-suivant"></span></button>
+        </div>
+      </div>
+      <div class="page step_03">
+        <div id="barre-etapes" style="">
+          <ul class="">
+            <li class="left passee">
+                <span class="etape">1</span>
+                <span class="text">L'accident</span>
+                <span class="etat" style=""></span>
+            </li>
+            <li class="passee">
+                <span class="etape">2</span>
+                <span class="text">La victime</span>
+                <span class="etat"></span>
+            </li>
+            <li class="actif">
+                <span class="etape">3</span>
+                <span class="text">Les circonstances</span>
+                <span class="etat"></span>
+            </li>
+            <li>
+                <span class="etape">4</span>
+                <span class="text">Les conséquences</span>
+                <span class="etat"></span>
+            </li>
+            <li class="right">
+                <span class="etape">5</span>
+                <span class="text">Récapitulatif</span>
+                <span class="etat"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="chf-header">
+          <div class="chf-header-icon picto">&nbsp;</div>
+          <h3>Les circonstances</h3>
+        </div>
+        <form class="form-horizontal" role="form">
+          <div class="bloc">
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="forcirconstancesaccident" class="control-label col-md-3"><span class="txt-label">Indiquer comment l'accident s'est produit et ce que faisait la victime au moment de l'accident (Par ex. glissade et heurt pendant l'abattage d'un arbre)</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-9 bloc-question-reponses">
+                  <textarea class="form-control" rows="7" id="forcirconstancesaccident"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bloc">
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fortiers" class="control-label col-md-5"><span class="txt-label">L'accident a-t-il été causé par un tiers?</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-7 bloc-question-reponses">
+                  <div class="button-group radio-button-group">
+                    <div class="button-group-item radio-button-group-item button-group-item-selected">
+                      <div class="picto picto-tick"></div>Oui
+                    </div>
+                    <div class="button-group-item radio-button-group-item">
+                      <div class="picto picto-tick"></div>Non
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bloc-bloc-fonce">
+              <div class="row displTable">
+                <div class="col-md-2">
+                  <img src="img/tiers.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-10">
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <label for="fortiersnom" class="control-label col-md-3"><span class="txt-label">Nom</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                      <div class="col-md-9 bloc-question-reponses">
+                        <input type="text" class="form-control form-control-large" id="fortiersnom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <label for="fortiersprenom" class="control-label col-md-3"><span class="txt-label">Prénom</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                      <div class="col-md-9 bloc-question-reponses">
+                        <input type="text" class="form-control form-control-large" id="fortiersprenom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bloc noPadLeft noPadRight coords">
+                    <fieldset>
+                      <legend>Adresse postale</legend>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortiersvoie" class="control-label col-md-3"><span class="txt-label">Voie</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <div class="input-group">
+                              <input type="text" class="form-control form-control-short inputnumber" value="N°" id="fortiersvoie">
+                              <select class="form-control form-control-road" placehodler="Nature">
+                                <option>Rue</option>
+                                <option>Route</option>
+                                <option>Chemin</option>
+                              </select>
+                              <input type="text" class="form-control form-control-large" value="Nom">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortierscomplement" class="control-label col-md-3"><span class="txt-label">Complément</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <input type="text" class="form-control" id="fortierscomplement" value="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortierslieudit" class="control-label col-md-3"><span class="txt-label">Lieu-dit</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <input type="text" class="form-control" id="fortierslieudit" value="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortierscommune" class="control-label col-md-3"><span class="txt-label">Commune</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <div class="input-group">
+                              <input type="text" class="form-control form-control-code" value="Code postal" id="fortierscommune">
+                              <input type="text" class="form-control form-control-larger" value="Commune">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortierspays" class="control-label col-md-3"><span class="txt-label">Pays</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <select class="form-control" placehodler="Nature" id="fortierspays">
+                              <option>France</option>
+                              <option>Belgique</option>
+                              <option>Espagne</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <label for="fortiersassurance" class="control-label col-md-3"><span class="txt-label">Nom et adresse de la Société d'assurance du tiers</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                      <div class="col-md-9 bloc-question-reponses">
+                        <textarea class="form-control" rows="3" id="fortiersassurance"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bloc">
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fortiersgendarmerie" class="control-label col-md-7"><span class="txt-label">Un rapport de police ou de gendarmerie a-t-il été établi ?</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-5 bloc-question-reponses">
+                  <div class="button-group radio-button-group">
+                    <div class="button-group-item radio-button-group-item button-group-item-selected">
+                      <div class="picto picto-tick"></div>Oui
+                    </div>
+                    <div class="button-group-item radio-button-group-item">
+                      <div class="picto picto-tick"></div>Non
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fortiersgendarmerie2" class="control-label col-md-7"><span class="txt-label">Par quel commissariat ou quelle brigade ?</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-5 bloc-question-reponses">
+                  <input type="text" class="form-control" id="fortiersgendarmerie2">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bloc">
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fortemoin" class="control-label col-md-6"><span class="txt-label">Y a-t-il un témoin de l'accident?</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-6 bloc-question-reponses">
+                  <div class="button-group radio-button-group">
+                    <div class="button-group-item radio-button-group-item button-group-item-selected">
+                      <div class="picto picto-tick"></div>Oui
+                    </div>
+                    <div class="button-group-item radio-button-group-item">
+                      <div class="picto picto-tick"></div>Non
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bloc-bloc-fonce">
+              <div class="bloc-titre">
+                <h4 class="bloc-titre-texte">Témoin 1</h4>
+                <button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+              </div>
+              <div class="row displTable">
+                <div class="col-md-2">
+                  <img src="img/temoin.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-10">
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <label for="fortemoinnom" class="control-label col-md-3"><span class="txt-label">Nom</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                      <div class="col-md-9 bloc-question-reponses">
+                        <input type="text" class="form-control form-control-large" id="fortemoinnom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <label for="fortemoinprenom" class="control-label col-md-3"><span class="txt-label">Prénom</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                      <div class="col-md-9 bloc-question-reponses">
+                        <input type="text" class="form-control form-control-large" id="fortemoinprenom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bloc noPadLeft noPadRight coords">
+                    <fieldset>
+                      <legend>Adresse postale</legend>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoinvoie" class="control-label col-md-3"><span class="txt-label">Voie</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <div class="input-group">
+                              <input class="form-control form-control-short inputnumber" placeholder="N°" id="fortemoinvoie">
+                              <select class="form-control form-control-road" value="Nature">
+                                <option>Rue</option>
+                                <option>Route</option>
+                                <option>Chemin</option>
+                              </select>
+                              <input type="text" class="form-control form-control-large" value="Nom">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoincomplement" class="control-label col-md-3"><span class="txt-label">Complément</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <input type="text" class="form-control" id="fortemoincomplement" value="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoinlieudit" class="control-label col-md-3"><span class="txt-label">Lieu-dit</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <input type="text" class="form-control" id="fortemoinlieudit" value="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoincommune" class="control-label col-md-3"><span class="txt-label">Commune</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <div class="input-group">
+                              <input type="text" class="form-control form-control-code" value="Code postal" id="fortemoincommune">
+                              <input type="text" class="form-control form-control-larger" value="Commune">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoinpays" class="control-label col-md-3"><span class="txt-label">Pays</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <select class="form-control" placehodler="Nature" id="fortemoinpays">
+                              <option>France</option>
+                              <option>Belgique</option>
+                              <option>Espagne</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bloc-bloc-fonce">
+              <div class="bloc-titre">
+                <h4 class="bloc-titre-texte">Témoin 2</h4>
+                <button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+              </div>
+              <div class="row displTable">
+                <div class="col-md-2">
+                  <img src="img/temoin.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-10">
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <label for="fortemoin2nom" class="control-label col-md-3"><span class="txt-label">Nom</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                      <div class="col-md-9 bloc-question-reponses">
+                        <input type="text" class="form-control form-control-large" id="fortemoin2nom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <label for="fortemoin2prenom" class="control-label col-md-3"><span class="txt-label">Prénom</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                      <div class="col-md-9 bloc-question-reponses">
+                        <input type="text" class="form-control form-control-large" id="fortemoin2prenom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bloc noPadLeft noPadRight coords">
+                    <fieldset>
+                      <legend>Adresse postale</legend>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoin2voie" class="control-label col-md-3"><span class="txt-label">Voie</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <div class="input-group">
+                              <input type="text" class="form-control form-control-short inputnumber" value="N°" id="fortemoin2voie">
+                              <select class="form-control form-control-road" placehodler="Nature">
+                                <option>Rue</option>
+                                <option>Route</option>
+                                <option>Chemin</option>
+                              </select>
+                              <input type="text" class="form-control form-control-large" value="Nom">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoin2complement" class="control-label col-md-3"><span class="txt-label">Complément</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <input type="text" class="form-control" id="fortemoin2complement" value="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoin2lieudit" class="control-label col-md-3"><span class="txt-label">Lieu-dit</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <input type="text" class="form-control" id="fortemoin2lieudit" value="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoin2commune" class="control-label col-md-3"><span class="txt-label">Commune</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <div class="input-group">
+                              <input type="text" class="form-control form-control-code" value="Code postal" id="fortemoin2commune">
+                              <input type="text" class="form-control form-control-larger" value="Commune">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="fortemoin2pays" class="control-label col-md-3"><span class="txt-label">Pays</span></label>
+                          <div class="col-md-9 bloc-question-reponses">
+                            <select class="form-control" placehodler="Nature" id="fortemoin2pays">
+                              <option>France</option>
+                              <option>Belgique</option>
+                              <option>Espagne</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-default btn-lg btn-block"><i class="glyphicon glyphicon-plus"></i>Ajouter un autre témoin</button>
+          </div>
+        </form>
+        <div class="chf-footer">
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-annuler">Abandonner<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-continu-after">Continuer plus tard<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-precedent">Précédent<span class="picto picto-precedent"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-suivant">Suivant<span class="picto picto-suivant"></span></button>
+        </div>
+      </div>
+      <div class="page step_04">
+        <div id="barre-etapes" style="">
+          <ul class="">
+            <li class="left passee">
+                <span class="etape">1</span>
+                <span class="text">L'accident</span>
+                <span class="etat" style=""></span>
+            </li>
+            <li class="passee">
+                <span class="etape">2</span>
+                <span class="text">La victime</span>
+                <span class="etat"></span>
+            </li>
+            <li class="passee">
+                <span class="etape">3</span>
+                <span class="text">Les circonstances</span>
+                <span class="etat"></span>
+            </li>
+            <li class="actif">
+                <span class="etape">4</span>
+                <span class="text">Les conséquences</span>
+                <span class="etat"></span>
+            </li>
+            <li class="right">
+                <span class="etape">5</span>
+                <span class="text">Récapitulatif</span>
+                <span class="etat"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="chf-header">
+          <div class="chf-header-icon picto">&nbsp;</div>
+          <h3>Les conséquences</h3>
+        </div>
+        <div class="bloc">
+          <form class="form-horizontal" role="form">
+            <div class="row">
+              <span  class="label control-label col-md-9"><span class="txt-label">Veuillez indiquer sur le shéma ci-dessous à quel endroit la victime a été atteinte :</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></span>
+            </div>
+            <div class="map">
+              <div id="canvas"></div>
+              <!-- <img src="img/man.gif" alt="" width="600" height="600"> -->
+              <div class="stickers">
+                <div class="sticker form-group stk01">
+                  <input type="checkbox" class="form-control" id="forstk01">
+                  <label for="forstk01" class="control-label">Tête ou cou </label>
+                </div>
+                <div class="sticker form-group stk02">
+                  <input type="checkbox" class="form-control" id="forstk02">
+                  <label for="forstk02" class="control-label">Oeil droit </label>
+                </div>
+                <div class="sticker form-group stk03">
+                  <input type="checkbox" class="form-control" id="forstk03">
+                  <label for="forstk01" class="control-label">Oeil gauche </label>
+                </div>
+                <div class="sticker form-group stk04">
+                  <input type="checkbox" class="form-control" id="forstk04">
+                  <label for="forstk04" class="control-label">Membres supérieurs droits </label>
+                </div>
+                <div class="sticker form-group stk05">
+                  <input type="checkbox" class="form-control" id="forstk05">
+                  <label for="forstk05" class="control-label">Membres supérieurs gauches </label>
+                </div>
+                <div class="sticker form-group stk06">
+                  <input type="checkbox" class="form-control" id="forstk06">
+                  <label for="forstk06" class="control-label">Main droite </label>
+                </div>
+                <div class="sticker form-group stk07">
+                  <input type="checkbox" class="form-control" id="forstk07">
+                  <label for="forstk07" class="control-label">Main gauche </label>
+                </div>
+                <div class="sticker form-group stk08">
+                  <input type="checkbox" class="form-control" id="forstk08">
+                  <label for="forstk08" class="control-label">Tronc </label>
+                </div>
+                <div class="sticker form-group stk09">
+                  <input type="checkbox" class="form-control" id="forstk09">
+                  <label for="forstk09" class="control-label">Siège interne </label>
+                </div>
+                <div class="sticker form-group stk10">
+                  <input type="checkbox" class="form-control" id="forstk10">
+                  <label for="forstk10" class="control-label">Membres inférieurs droits </label>
+                </div>
+                <div class="sticker form-group stk11">
+                  <input type="checkbox" class="form-control" id="forstk11">
+                  <label for="forstk11" class="control-label">Membres inférieurs gauches </label>
+                </div>
+                <div class="sticker form-group stk12">
+                  <input type="checkbox" class="form-control" id="forstk12">
+                  <label for="forstk12" class="control-label">Pied droit </label>
+                </div>
+                <div class="sticker form-group stk13">
+                  <input type="checkbox" class="form-control" id="forstk13">
+                  <label for="forstk13" class="control-label">Pied gauche </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fornaturelesions" class="control-label col-md-5"><span class="txt-label">Nature des lésions</span> <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></label>
+                <div class="col-md-7 bloc-question-reponses">
+                  <div class="line">
+                    <select class="form-control form-control-medium" id="fornaturelesions">
+                      <option>Fracture</option>
+                      <option>Brûlure</option>
+                      <option>Amputation</option>
+                    </select>
+                  </div>
+                  <div class="line">
+                    <select class="form-control form-control-medium" disabled>
+                      <option>Brûlure</option>
+                      <option>Fracture</option>
+                      <option>Amputation</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fordateaccident" class="control-label col-md-5">La victime a-t-elle eu un arrêt de travail ?</label>
+                <div class="col-md-7 bloc-question-reponses">
+                  <div class="button-group radio-button-group">
+                    <div class="button-group-item radio-button-group-item button-group-item-selected">
+                      <div class="picto picto-tick"></div>Oui
+                    </div>
+                    <div class="button-group-item radio-button-group-item">
+                      <div class="picto picto-tick"></div>Non
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fordateaccident" class="control-label col-md-5">La victime a-t-elle été hospitalisée ?</label>
+                <div class="col-md-7 bloc-question-reponses">
+                  <div class="button-group radio-button-group">
+                    <div class="button-group-item radio-button-group-item button-group-item-selected">
+                      <div class="picto picto-tick"></div>Oui
+                    </div>
+                    <div class="button-group-item radio-button-group-item">
+                      <div class="picto picto-tick"></div>Non
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label for="fordateaccident" class="control-label col-md-5">La victime est-elle décédée ?</label>
+                <div class="col-md-7 bloc-question-reponses">
+                  <div class="button-group radio-button-group">
+                    <div class="button-group-item radio-button-group-item button-group-item-selected">
+                      <div class="picto picto-tick"></div>Oui
+                    </div>
+                    <div class="button-group-item radio-button-group-item">
+                      <div class="picto picto-tick"></div>Non
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="chf-footer">
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-annuler">Abandonner<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-continu-after">Continuer plus tard<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-precedent">Précédent<span class="picto picto-precedent"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-suivant">Suivant<span class="picto picto-suivant"></span></button>
+        </div>
+      </div>
+      <div class="page step_05">
+        <div id="barre-etapes" style="">
+          <ul class="">
+            <li class="left passee">
+                <span class="etape">1</span>
+                <span class="text">L'accident</span>
+                <span class="etat" style=""></span>
+            </li>
+            <li class="passee">
+                <span class="etape">2</span>
+                <span class="text">La victime</span>
+                <span class="etat"></span>
+            </li>
+            <li class="passee">
+                <span class="etape">3</span>
+                <span class="text">Les circonstances</span>
+                <span class="etat"></span>
+            </li>
+            <li class="passee">
+                <span class="etape">4</span>
+                <span class="text">Les conséquences</span>
+                <span class="etat"></span>
+            </li>
+            <li class="right actif">
+                <span class="etape">5</span>
+                <span class="text">Récapitulatif</span>
+                <span class="etat"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="chf-header">
+          <div class="chf-header-icon picto">&nbsp;</div>
+          <h3>Récaptitulatif de l'accident</h3>
+        </div>
+        <div class="bloc">
+          <div class="bloc-bloc-fonce">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="bloc-titre">
+                  <h4 class="bloc-titre-texte">La victime</h4>
+                </div>
+                <div class="col-md-4 recap-visu">
+                  <img src="img/man.gif" alt="" width="150" height="150">
+                  <p>Nature des lesions <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></p>
+                  <ul>
+                    <li>Fractures</li>
+                    <li>Brûlures</li>
+                    <li>Amputation</li>
+                  </ul>
+                </div>
+                <div class="col-md-8 recap-list">
+                  <h5>Che MANNS</h5>
+                  <h6>Victime d'un accident de trajet le vendredi 10 mai à 15h00</h6>
+                  <ul>
+                    <li><i class="glyphicon glyphicon-leaf"></i> Sur la route communale 10 près de chez Jean Loup <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i> J'étais en train de... <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></li>
+                    <li><i class="glyphicon glyphicon-leaf"></i> La victime a eu un arrêt de travail</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i> La victime a été hospitalisée</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i> La victime est décédée</li>
+                    <li><i class="glyphicon glyphicon-leaf"></i> Rapport de police effectué</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bloc-bloc-fonce">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="bloc-titre">
+                  <h4 class="bloc-titre-texte">Tiers</h4>
+                </div>
+                <div class="col-md-3">
+                  <div class="thumbnail">
+                    <div class="figure">
+                      <img src="img/tiers.png" alt="">
+                    </div>
+                    <div class="caption">
+                      <h3>Javier BLANC <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bloc-bloc-fonce">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="bloc-titre">
+                  <h4 class="bloc-titre-texte">Témoins</h4>
+                </div>
+                <div class="col-md-3">
+                  <div class="thumbnail">
+                    <div class="figure">
+                      <img src="img/temoin.png" alt="">
+                    </div>
+                    <div class="caption">
+                      <h3>Jean PAUL <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="thumbnail">
+                    <div class="figure">
+                      <img src="img/temoin.png" alt="">
+                    </div>
+                    <div class="caption">
+                      <h3>Pierre PAUL <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bloc bloc-important">
+            <input type="checkbox" id="forattestation">
+            <label for="forattestation"><strong>J'atteste sur l'honneur que ces informations sont exactes et sincères</strong> Quiconque se rend coupable de fraude ou de fausse déclaration est passible de pénalités financières, d'amendes et/ou...</label>
+          </div>
+        </div>
+        <div class="chf-footer">
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-annuler">Abandonner<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-continu-after">Continuer plus tard<span class="picto picto-annuler"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-precedent">Précédent<span class="picto picto-precedent"></span></button>
+          <button type="button" class="btn btn-picto btn-footer footer-bouton-suivant">Suivant<span class="picto picto-suivant"></span></button>
+        </div>
+      </div>
+      <div class="page step_06">
+        <div class="chf-header">
+          <div class="chf-header-icon picto">&nbsp;</div>
+          <h3>Confirmation</h3>
+        </div>
+        <div class="bloc" id="bloc-accuse-reception">
+          <h4>Accusé de réception</h4>
+          <div class="liste-bloc-confirmation-item">
+            <div class="bloc-confirmation-item messageConfirmation">
+              <div class="picto picto-confirmation"></div>
+              Les coordonnées de votre nouveau compte ont bien été transmises à la MSA Midi-Pyrénées Nord le <strong>15/04/2014</strong> à <strong>10h45</strong> sous le numéro d'enregistrement <strong>896_RIB_824788_15</strong>
+            </div>
+            <div class="bloc-confirmation-item infosPDF">
+              <div class="picto picto-pdf"></div>
+              <span id="lienPDF">
+                <a href="{LIEN_SERVICE}">Télécharger le récapitulatif de votre demande en PDF</a>
+              </span>
+              <span class="info" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">&nbsp;</span>
+              <br>Retrouvez vos demandes à partir de l'accueil du téléservice mes coordonnées bancaires </div>
+              <div class="bloc-confirmation-item envoieMail">
+                <div class="picto picto-mail"></div>
+                Vous recevrez aussi cette confirmation par email.
+              </div>
+            </div>
+          </div>
+          <div class="bloc bloc-important">
+            <h4>Important</h4>
+            <div class="liste-bloc-confirmation-item">
+              <div class="bloc-confirmation-item">
+                <div class="picto picto-important"></div>
+                Ces coordonnées bancaires seront désormais utilisées par votre caisse de MSA pour vous verser les <strong>paiements</strong> :
+              </div>
+              <div class="affectation">
+                <div class="picto picto-fleche-rouge-petit"></div>
+                du compte principal
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/less-1.5.0.min.js"></script>
+    <script src="js/vendor/raphael-min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>
