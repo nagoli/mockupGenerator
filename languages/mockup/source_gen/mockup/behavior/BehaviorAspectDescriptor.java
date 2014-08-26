@@ -12,24 +12,32 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 2:
-        return new Mockup_BehaviorDescriptor();
-      case 4:
-        return new Pattern_BehaviorDescriptor();
-      case 6:
-        return new Step_BehaviorDescriptor();
       case 3:
+        return new Mockup_BehaviorDescriptor();
+      case 7:
+        return new Pattern_BehaviorDescriptor();
+      case 9:
+        return new Step_BehaviorDescriptor();
+      case 4:
         return new Parameter_BehaviorDescriptor();
       case 0:
         return new Applat_BehaviorDescriptor();
       case 1:
         return new Form3Element_BehaviorDescriptor();
-      case 5:
+      case 8:
         return new PatternReference_BehaviorDescriptor();
+      case 2:
+        return new Label_BehaviorDescriptor();
+      case 10:
+        return new StringLiteral_BehaviorDescriptor();
+      case 5:
+        return new ParameterReference_BehaviorDescriptor();
+      case 6:
+        return new ParameterValue_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"mockup.structure.Applat", "mockup.structure.Form3Element", "mockup.structure.Mockup", "mockup.structure.Parameter", "mockup.structure.Pattern", "mockup.structure.PatternReference", "mockup.structure.Step"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"mockup.structure.Applat", "mockup.structure.Form3Element", "mockup.structure.Label", "mockup.structure.Mockup", "mockup.structure.Parameter", "mockup.structure.ParameterReference", "mockup.structure.ParameterValue", "mockup.structure.Pattern", "mockup.structure.PatternReference", "mockup.structure.Step", "mockup.structure.StringLiteral"};
 }

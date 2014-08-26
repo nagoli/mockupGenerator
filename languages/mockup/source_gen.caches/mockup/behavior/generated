@@ -5,7 +5,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" hash="-1vtu6uptzx5l7n2n68xt5em9d6nhvec" />
-  <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" hash="47oilcxugs09f6ojy9b5c8rn38pj7b8" />
+  <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" hash="-6u04dfk39equx6l956hflwzvhs43iof" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
   <common hash="b2e46aqvui17c2vzqrx0lu0tfduwyfc" dependsOnNodes="true">
@@ -20,12 +20,17 @@
     <file name="Applat_BehaviorDescriptor.java" />
     <file name="BehaviorAspectDescriptor.java" />
     <file name="Component_BehaviorDescriptor.java" />
+    <file name="Expression_BehaviorDescriptor.java" />
     <file name="Form3Element_BehaviorDescriptor.java" />
+    <file name="Label_BehaviorDescriptor.java" />
     <file name="Mockup_BehaviorDescriptor.java" />
+    <file name="ParameterReference_BehaviorDescriptor.java" />
+    <file name="ParameterValue_BehaviorDescriptor.java" />
     <file name="Parameter_BehaviorDescriptor.java" />
     <file name="PatternReference_BehaviorDescriptor.java" />
     <file name="Pattern_BehaviorDescriptor.java" />
     <file name="Step_BehaviorDescriptor.java" />
+    <file name="StringLiteral_BehaviorDescriptor.java" />
   </common>
 </dependencies>
 
