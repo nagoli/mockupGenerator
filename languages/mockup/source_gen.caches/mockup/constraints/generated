@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="2s1tix7azta7ftuznpdi080t8s4hu42">
-  <common hash="2s1tix7azta7ftuznpdi080t8s4hu42" />
+<dependencies version="2" modelHash="-4fu5ujiz9nqhbsqnpff96tol9siifx5">
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
+  <dep model="r:00000000-0000-4000-0000-011c8959030e(jetbrains.mps.lang.constraints.generator.baseLanguage.template.main@generator)" hash="-9rx18rq1tolqxt04zf3tk9nxmmzjiat" />
+  <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" hash="-6u04dfk39equx6l956hflwzvhs43iof" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="5fb9qc0ryu6295tpp7irn14pofq2x6c" dependsOnNodes="true">
+    <dep root="812675757532925679" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959030e(jetbrains.mps.lang.constraints.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="ConstraintsAspectDescriptor.java" />
+  </common>
+  <source id="812675757532925679" name="Pattern_Constraints" hash="b51pp15m8k01pylvsnjzpw9t1pt0w0g">
+    <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" />
+    <file name="Pattern_Constraints.java" />
+  </source>
 </dependencies>
 

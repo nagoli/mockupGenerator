@@ -22,8 +22,10 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 2:
         return Collections.<ConceptEditor>singletonList(new ParameterReference_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new PatternReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new ParameterValue_Editor());
       case 4:
+        return Collections.<ConceptEditor>singletonList(new PatternReference_Editor());
+      case 5:
         return Collections.<ConceptEditor>singletonList(new StringLiteral_Editor());
       default:
     }
@@ -36,5 +38,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"mockup.structure.Label", "mockup.structure.Parameter", "mockup.structure.ParameterReference", "mockup.structure.PatternReference", "mockup.structure.StringLiteral"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"mockup.structure.Label", "mockup.structure.Parameter", "mockup.structure.ParameterReference", "mockup.structure.ParameterValue", "mockup.structure.PatternReference", "mockup.structure.StringLiteral"};
 }

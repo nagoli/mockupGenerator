@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="mockup.constraints.ConstraintsAspectDescriptor" />
+  <root nodeRef="r:ef1134a9-1707-4785-acb7-67a815bd2b40(mockup.constraints)/812675757532925679">
+    <nodeInfo nodeId="812675757532925679" fileName="Pattern_Constraints.java" startLine="8" startPosition="32" endLine="9" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="812675757532925679" fileName="Pattern_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Pattern_Constraints#()V" />
+    <scopeInfo nodeId="812675757532925679" fileName="Pattern_Constraints.java" startLine="8" startPosition="32" endLine="9" endPosition="38" />
+    <scopeInfo nodeId="812675757532925679" fileName="Pattern_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" />
+    <unitInfo nodeId="812675757532925679" fileName="Pattern_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="mockup.constraints.Pattern_Constraints" />
+  </root>
+</debugInfo>
 
