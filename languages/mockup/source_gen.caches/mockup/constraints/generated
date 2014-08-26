@@ -16,6 +16,7 @@
   </common>
   <source id="812675757532925679" name="Pattern_Constraints" hash="b51pp15m8k01pylvsnjzpw9t1pt0w0g">
     <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="Pattern_Constraints.java" />
   </source>
 </dependencies>
