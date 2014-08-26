@@ -6,5 +6,8 @@
     </modelRoot>
   </models>
   <sourcePath />
+  <usedLanguages>
+    <usedLanguage>d31426f0-4a34-47ca-841c-d0be6c42e313(mockup)</usedLanguage>
+  </usedLanguages>
 </solution>
 

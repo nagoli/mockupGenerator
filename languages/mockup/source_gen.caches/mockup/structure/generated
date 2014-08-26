@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="47oilcxugs09f6ojy9b5c8rn38pj7b8">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-5mgxduek28h3ywdzzsk4capaz4hgjm0" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="47f2ikiuubty5fb1r8x5zumhtpy8ley" dependsOnNodes="true">
+    <dep root="6484469149691180902" />
+    <dep root="6484469149691220291" />
+    <dep root="6484469149691220391" />
+    <dep root="6484469149691222517" />
+    <dep root="6484469149691222523" />
+    <dep root="6484469149691222526" />
+    <dep root="6484469149691222529" />
+    <dep root="6484469149691222536" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="6484469149691180902" name="Mockup" hash="-a6obut9ved710109vu8vw58r5zdel6i" />
+  <source id="6484469149691220291" name="Pattern" hash="1gob7odi899yr9ljjzsmu89lmet92df" />
+  <source id="6484469149691220391" name="Step" hash="3e6b5jsmhwrf0l4wf7dn9orbxfdgha2" />
+  <source id="6484469149691222517" name="Parameter" hash="-6vk0t12chiphdn9rhz8mpvcpo5subjo" />
+  <source id="6484469149691222523" name="Component" hash="-a5r4539vj2530m3vnpzh9b0fanlz3ga" />
+  <source id="6484469149691222526" name="Applat" hash="-2za35lqh54254gqvhf8n0s2n9qvb2bl" />
+  <source id="6484469149691222529" name="Form3Element" hash="-1i7jll940oc6il5mxpmoep7nv7m9nqe" />
+  <source id="6484469149691222536" name="PatternReference" hash="-9mln5q3lru9nvar5phrqbdv6b6ok86a" />
+</dependencies>
+
