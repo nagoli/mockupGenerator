@@ -6,6 +6,7 @@
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="mkop" modelUID="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" version="-1" implicit="yes" />
+  <import index="iuxj" modelUID="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" version="2" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6484469149691180902" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Mockup" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
@@ -166,6 +167,17 @@
       <property name="role" nameId="tpce.1071599776563" value="parameter" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6484469149691222517" resolveInfo="Parameter" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6484469149691749316" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ExpressionWrapper" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="internal" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="iuxj.6666499814681299051" resolveInfo="XmlContent" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6484469149691751294" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="expression" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6484469149691507454" resolveInfo="Expression" />
     </node>
   </root>
 </model>

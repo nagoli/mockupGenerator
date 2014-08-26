@@ -1,0 +1,25 @@
+<html>
+  
+  <body>
+    <div class="container">
+      <div class="page step_00">
+        <div class="top" />
+        <form>
+          <div>
+            <component />
+          </div>
+        </form>
+        <div class="bottom" />
+      </div>
+      <div class="page step_00">
+        <div class="top" />
+        <form>
+          <div>
+            <component />
+          </div>
+        </form>
+        <div class="bottom" />
+      </div>
+    </div>
+  </body>
+</html>

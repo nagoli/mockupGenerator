@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-6u04dfk39equx6l956hflwzvhs43iof">
+<dependencies version="2" modelHash="-7rast03e7vzr1pun75yxeskdjusm7uc">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-5mgxduek28h3ywdzzsk4capaz4hgjm0" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" hash="2xuzt4is7at5tonztgslhwyoq9rfj1j" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
-  <common hash="47f2ikiuubty5fb1r8x5zumhtpy8ley" dependsOnNodes="true">
+  <common hash="-94dcgjrzo7qs458rrbppe0oh8d1zgna" dependsOnNodes="true">
     <dep root="6484469149691180902" />
     <dep root="6484469149691220291" />
     <dep root="6484469149691220391" />
@@ -19,9 +20,11 @@
     <dep root="6484469149691507455" />
     <dep root="6484469149691507458" />
     <dep root="6484469149691583758" />
+    <dep root="6484469149691749316" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="StructureAspectDescriptor.java" />
@@ -39,5 +42,6 @@
   <source id="6484469149691507455" name="StringLiteral" hash="a5brple0yvhfohasw9653hpa5xptb1n" />
   <source id="6484469149691507458" name="ParameterReference" hash="2ps8tu92ioyoqcmqe81s1dkcdvfd8ij" />
   <source id="6484469149691583758" name="ParameterValue" hash="-9mrs1l3jpfa62hlxp4bchsr8r8poox2" />
+  <source id="6484469149691749316" name="ExpressionWrapper" hash="2tlqhc7w0bd16ijxsa4iaackmn7laho" />
 </dependencies>
 

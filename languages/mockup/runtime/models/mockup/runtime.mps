@@ -16,6 +16,17 @@
         </node>
       </node>
     </node>
+    <node role="steps" roleId="mkop.6484469149691220287" type="mkop.Step" typeId="mkop.6484469149691220391" id="6484469149691727276" nodeInfo="ng">
+      <node role="patterns" roleId="mkop.6484469149691220392" type="mkop.PatternReference" typeId="mkop.6484469149691222536" id="6484469149691727277" nodeInfo="ng">
+        <link role="pattern" roleId="mkop.6484469149691222537" targetNodeId="6484469149691449132" resolveInfo="demandeHeureAccident" />
+        <node role="parameterValues" roleId="mkop.6484469149691583755" type="mkop.ParameterValue" typeId="mkop.6484469149691583758" id="6484469149691727278" nodeInfo="ng">
+          <link role="parameter" roleId="mkop.6484469149691583759" targetNodeId="6484469149691449135" resolveInfo="message" />
+          <node role="value" roleId="mkop.6484469149691583761" type="mkop.StringLiteral" typeId="mkop.6484469149691507455" id="6484469149691727279" nodeInfo="ng">
+            <property name="value" nameId="mkop.6484469149691507456" value="hello olivier" />
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
   <root type="mkop.Pattern" typeId="mkop.6484469149691220291" id="6484469149691449132" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="demandeHeureAccident" />
