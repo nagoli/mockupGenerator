@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="mkop" modelUID="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" version="-1" />
+    </dependencies>
+    <rename id="mkop.6484469149691220392" type="CHILD" from="patterns" to="content" />
+  </StructureModification>
+</history>
+

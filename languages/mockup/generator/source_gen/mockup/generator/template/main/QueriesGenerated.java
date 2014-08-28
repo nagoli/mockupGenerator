@@ -7,6 +7,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.generator.template.TemplateQueryContextWithMacro;
+import mockup.behavior.PatternReference_Behavior;
 
 @Generated
 public class QueriesGenerated {
@@ -16,19 +19,35 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "libelle", true);
   }
 
+  public static SNode sourceNodeQuery_6035835504269778874(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "text", true);
+  }
+
   public static Iterable<SNode> sourceNodesQuery_6484469149691704182(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "steps", true);
   }
 
-  public static Iterable<SNode> sourceNodesQuery_6484469149691869918(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "patterns", true);
+  public static Iterable<SNode> sourceNodesQuery_6035835504270838426(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SNodeOperations.as(SNodeOperations.getParent(_context.getNode()), "mockup.structure.Mockup"), "top", true);
   }
 
-  public static Iterable<SNode> sourceNodesQuery_6484469149691882218(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "pattern", false), "components", true);
+  public static Iterable<SNode> sourceNodesQuery_6035835504269676127(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "content", true);
   }
 
-  public static Iterable<SNode> sourceNodesQuery_6484469149691746451(final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_6035835504270863250(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SNodeOperations.as(SNodeOperations.getParent(_context.getNode()), "mockup.structure.Mockup"), "bottom", true);
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_6035835504269806697(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "values", true);
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_6035835504269777988(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "content", true);
+  }
+
+  public static SNode insertMacro_Query_6035835504269672815(final TemplateQueryContextWithMacro _context) {
+    return PatternReference_Behavior.call_evaluate_6035835504270072636(_context.getNode());
   }
 }

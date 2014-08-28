@@ -1,19 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="Applat_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.Applat_BehaviorDescriptor" />
+  <unitInfo fileName="Applat_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.Applat_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="mockup.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="Component_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.Component_BehaviorDescriptor" />
+  <unitInfo fileName="Component_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="mockup.behavior.Component_BehaviorDescriptor" />
   <unitInfo fileName="ExpressionWrapper_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.ExpressionWrapper_BehaviorDescriptor" />
-  <unitInfo fileName="Expression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.Expression_BehaviorDescriptor" />
-  <unitInfo fileName="Form3Element_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.Form3Element_BehaviorDescriptor" />
-  <unitInfo fileName="Label_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.Label_BehaviorDescriptor" />
+  <unitInfo fileName="Expression_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="mockup.behavior.Expression_BehaviorDescriptor" />
+  <unitInfo fileName="Form3Element_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.Form3Element_BehaviorDescriptor" />
+  <unitInfo fileName="Label_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.Label_BehaviorDescriptor" />
   <unitInfo fileName="Mockup_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.Mockup_BehaviorDescriptor" />
-  <unitInfo fileName="ParameterReference_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.ParameterReference_BehaviorDescriptor" />
+  <unitInfo fileName="ParameterReference_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.ParameterReference_BehaviorDescriptor" />
   <unitInfo fileName="ParameterValue_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.ParameterValue_BehaviorDescriptor" />
   <unitInfo fileName="Parameter_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="mockup.behavior.Parameter_BehaviorDescriptor" />
-  <unitInfo fileName="PatternReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.PatternReference_BehaviorDescriptor" />
+  <unitInfo fileName="PatternReference_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.PatternReference_BehaviorDescriptor" />
   <unitInfo fileName="Pattern_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="mockup.behavior.Pattern_BehaviorDescriptor" />
   <unitInfo fileName="Step_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.Step_BehaviorDescriptor" />
-  <unitInfo fileName="StringLiteral_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.StringLiteral_BehaviorDescriptor" />
+  <unitInfo fileName="StringLiteral_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.StringLiteral_BehaviorDescriptor" />
+  <root nodeRef="r:3388e611-994d-4b58-bc39-57d682f6ba17(mockup.behavior)/6035835504269172991">
+    <nodeInfo nodeId="6035835504270583910" fileName="PatternReference_Behavior.java" startLine="17" startPosition="103" endLine="18" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6035835504270097549" fileName="PatternReference_Behavior.java" startLine="20" startPosition="35" endLine="21" endPosition="235" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6035835504269216695" fileName="PatternReference_Behavior.java" startLine="23" startPosition="7" endLine="24" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504270073317" fileName="PatternReference_Behavior.java" startLine="27" startPosition="73" endLine="28" endPosition="299" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269172991" fileName="PatternReference_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504270088146" fileName="PatternReference_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504269172991" fileName="PatternReference_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_evaluate_6035835504270072636#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6035835504270079542" fileName="PatternReference_Behavior.java" startLine="18" startPosition="54" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6035835504269172991" fileName="PatternReference_Behavior.java" startLine="17" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_evaluate_6035835504269173056#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6035835504269172993" fileName="PatternReference_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
+    <scopeInfo nodeId="6035835504270088147" fileName="PatternReference_Behavior.java" startLine="20" startPosition="35" endLine="21" endPosition="235" />
+    <scopeInfo nodeId="6035835504270072639" fileName="PatternReference_Behavior.java" startLine="27" startPosition="73" endLine="28" endPosition="299" />
+    <scopeInfo nodeId="6035835504269172991" fileName="PatternReference_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="6035835504269172991" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270088146" fileName="PatternReference_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6035835504270088146" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269172991" fileName="PatternReference_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="6035835504269172991" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269815756" fileName="PatternReference_Behavior.java" startLine="17" startPosition="103" endLine="24" endPosition="18">
+      <varInfo nodeId="6035835504270583913" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269172991" fileName="PatternReference_Behavior.java" startLine="17" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="6035835504270069648" varName="binding" />
+      <varInfo nodeId="6035835504269172991" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504270088146" fileName="PatternReference_Behavior.java" startLine="19" startPosition="100" endLine="23" endPosition="5" unitName="mockup.behavior.PatternReference_Behavior$1" />
+    <unitInfo nodeId="6035835504269172991" fileName="PatternReference_Behavior.java" startLine="13" startPosition="0" endLine="31" endPosition="0" unitName="mockup.behavior.PatternReference_Behavior" />
+  </root>
+  <root nodeRef="r:3388e611-994d-4b58-bc39-57d682f6ba17(mockup.behavior)/6035835504269173041">
+    <nodeInfo nodeId="6035835504269212941" fileName="Component_Behavior.java" startLine="15" startPosition="97" endLine="16" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="20" startPosition="94" endLine="21" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="25" startPosition="127" endLine="26" endPosition="276" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_evaluate_6035835504269173056#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_evaluate_6035835504269173056#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_evaluate_6035835504269173056#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6035835504269173043" fileName="Component_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="6035835504269173059" fileName="Component_Behavior.java" startLine="15" startPosition="97" endLine="16" endPosition="46" />
+    <scopeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="20" startPosition="94" endLine="21" endPosition="156" />
+    <scopeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="25" startPosition="127" endLine="26" endPosition="276" />
+    <scopeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="6035835504269173041" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="6035835504270068478" varName="binding" />
+      <varInfo nodeId="6035835504269173041" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6035835504270068478" varName="binding" />
+      <varInfo nodeId="6035835504269173041" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="6035835504270068478" varName="binding" />
+      <varInfo nodeId="6035835504269173041" varName="callerConceptFqName" />
+      <varInfo nodeId="6035835504269173041" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504269173041" fileName="Component_Behavior.java" startLine="11" startPosition="0" endLine="29" endPosition="0" unitName="mockup.behavior.Component_Behavior" />
+  </root>
+  <root nodeRef="r:3388e611-994d-4b58-bc39-57d682f6ba17(mockup.behavior)/6035835504269252963">
+    <nodeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="16" startPosition="94" endLine="17" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="21" startPosition="127" endLine="22" endPosition="277" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_evaluate_6035835504269252966#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_evaluate_6035835504269252966#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6035835504269252965" fileName="Expression_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="16" startPosition="94" endLine="17" endPosition="156" />
+    <scopeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="21" startPosition="127" endLine="22" endPosition="277" />
+    <scopeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="6035835504269252963" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="15" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="6035835504269252983" varName="binding" />
+      <varInfo nodeId="6035835504269252963" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="6035835504269252983" varName="binding" />
+      <varInfo nodeId="6035835504269252963" varName="callerConceptFqName" />
+      <varInfo nodeId="6035835504269252963" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504269252963" fileName="Expression_Behavior.java" startLine="11" startPosition="0" endLine="25" endPosition="0" unitName="mockup.behavior.Expression_Behavior" />
+  </root>
+  <root nodeRef="r:3388e611-994d-4b58-bc39-57d682f6ba17(mockup.behavior)/6035835504269253308">
+    <nodeInfo nodeId="6035835504270761232" fileName="StringLiteral_Behavior.java" startLine="13" startPosition="97" endLine="14" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269253308" fileName="StringLiteral_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504269253308" fileName="StringLiteral_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_evaluate_6035835504269252966#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6035835504269253310" fileName="StringLiteral_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="6035835504269253317" fileName="StringLiteral_Behavior.java" startLine="13" startPosition="97" endLine="14" endPosition="46" />
+    <scopeInfo nodeId="6035835504269253308" fileName="StringLiteral_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="6035835504269253308" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269253308" fileName="StringLiteral_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="6035835504269253318" varName="binding" />
+      <varInfo nodeId="6035835504269253308" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504269253308" fileName="StringLiteral_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="mockup.behavior.StringLiteral_Behavior" />
+  </root>
+  <root nodeRef="r:3388e611-994d-4b58-bc39-57d682f6ba17(mockup.behavior)/6035835504269268745">
+    <nodeInfo nodeId="6035835504269294515" fileName="ParameterReference_Behavior.java" startLine="17" startPosition="39" endLine="18" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269268745" fileName="ParameterReference_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504269294278" fileName="ParameterReference_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6035835504269268775" fileName="ParameterReference_Behavior.java" startLine="15" startPosition="103" endLine="20" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504269268745" fileName="ParameterReference_Behavior.java" startLine="15" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_evaluate_6035835504269252966#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6035835504269268747" fileName="ParameterReference_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="6035835504269294279" fileName="ParameterReference_Behavior.java" startLine="17" startPosition="39" endLine="18" endPosition="124" />
+    <scopeInfo nodeId="6035835504269268745" fileName="ParameterReference_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="6035835504269268745" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269294278" fileName="ParameterReference_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="6035835504269294278" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504269268754" fileName="ParameterReference_Behavior.java" startLine="15" startPosition="103" endLine="20" endPosition="23" />
+    <scopeInfo nodeId="6035835504269268745" fileName="ParameterReference_Behavior.java" startLine="15" startPosition="0" endLine="22" endPosition="0">
+      <varInfo nodeId="6035835504269268755" varName="binding" />
+      <varInfo nodeId="6035835504269268745" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504269294278" fileName="ParameterReference_Behavior.java" startLine="16" startPosition="82" endLine="20" endPosition="5" unitName="mockup.behavior.ParameterReference_Behavior$1" />
+    <unitInfo nodeId="6035835504269268745" fileName="ParameterReference_Behavior.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="mockup.behavior.ParameterReference_Behavior" />
+  </root>
+  <root nodeRef="r:3388e611-994d-4b58-bc39-57d682f6ba17(mockup.behavior)/6035835504270112868">
+    <nodeInfo nodeId="6035835504270230905" fileName="Label_Behavior.java" startLine="15" startPosition="97" endLine="16" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6035835504270119932" fileName="Label_Behavior.java" startLine="16" startPosition="84" endLine="17" endPosition="239" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6035835504270113020" fileName="Label_Behavior.java" startLine="17" startPosition="239" endLine="18" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504270112868" fileName="Label_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504270112868" fileName="Label_Behavior.java" startLine="15" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_evaluate_6035835504269173056#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6035835504270112870" fileName="Label_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="6035835504270112868" fileName="Label_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="6035835504270112868" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270112989" fileName="Label_Behavior.java" startLine="15" startPosition="97" endLine="18" endPosition="18">
+      <varInfo nodeId="6035835504270230908" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270112868" fileName="Label_Behavior.java" startLine="15" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="6035835504270112986" varName="binding" />
+      <varInfo nodeId="6035835504270112868" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504270112868" fileName="Label_Behavior.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.Label_Behavior" />
+  </root>
+  <root nodeRef="r:3388e611-994d-4b58-bc39-57d682f6ba17(mockup.behavior)/6035835504270128292">
+    <nodeInfo nodeId="6035835504270224980" fileName="Form3Element_Behavior.java" startLine="17" startPosition="103" endLine="18" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6035835504270128779" fileName="Form3Element_Behavior.java" startLine="18" startPosition="91" endLine="19" endPosition="245" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6035835504270499389" fileName="Form3Element_Behavior.java" startLine="21" startPosition="37" endLine="22" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504270128791" fileName="Form3Element_Behavior.java" startLine="24" startPosition="8" endLine="25" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504270128292" fileName="Form3Element_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504270496807" fileName="Form3Element_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6035835504270388242" fileName="Form3Element_Behavior.java" startLine="19" startPosition="245" endLine="24" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6035835504270128292" fileName="Form3Element_Behavior.java" startLine="17" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_evaluate_6035835504269173056#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6035835504270128294" fileName="Form3Element_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
+    <scopeInfo nodeId="6035835504270496808" fileName="Form3Element_Behavior.java" startLine="21" startPosition="37" endLine="22" endPosition="154" />
+    <scopeInfo nodeId="6035835504270128292" fileName="Form3Element_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="6035835504270128292" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270496807" fileName="Form3Element_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="6035835504270496807" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270128776" fileName="Form3Element_Behavior.java" startLine="17" startPosition="103" endLine="25" endPosition="18">
+      <varInfo nodeId="6035835504270224983" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270128292" fileName="Form3Element_Behavior.java" startLine="17" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="6035835504270128773" varName="binding" />
+      <varInfo nodeId="6035835504270128292" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504270496807" fileName="Form3Element_Behavior.java" startLine="20" startPosition="177" endLine="24" endPosition="5" unitName="mockup.behavior.Form3Element_Behavior$1" />
+    <unitInfo nodeId="6035835504270128292" fileName="Form3Element_Behavior.java" startLine="13" startPosition="0" endLine="28" endPosition="0" unitName="mockup.behavior.Form3Element_Behavior" />
+  </root>
+  <root nodeRef="r:3388e611-994d-4b58-bc39-57d682f6ba17(mockup.behavior)/6035835504270143039">
+    <nodeInfo nodeId="6035835504270221257" fileName="Applat_Behavior.java" startLine="17" startPosition="103" endLine="18" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6035835504270564307" fileName="Applat_Behavior.java" startLine="20" startPosition="37" endLine="21" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504270143187" fileName="Applat_Behavior.java" startLine="23" startPosition="8" endLine="24" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6035835504270143039" fileName="Applat_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6035835504270559987" fileName="Applat_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6035835504270518890" fileName="Applat_Behavior.java" startLine="18" startPosition="85" endLine="23" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6035835504270143039" fileName="Applat_Behavior.java" startLine="17" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_evaluate_6035835504269173056#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6035835504270143041" fileName="Applat_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
+    <scopeInfo nodeId="6035835504270559988" fileName="Applat_Behavior.java" startLine="20" startPosition="37" endLine="21" endPosition="154" />
+    <scopeInfo nodeId="6035835504270143039" fileName="Applat_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="6035835504270143039" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270559987" fileName="Applat_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6035835504270559987" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270143157" fileName="Applat_Behavior.java" startLine="17" startPosition="103" endLine="24" endPosition="18">
+      <varInfo nodeId="6035835504270221260" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6035835504270143039" fileName="Applat_Behavior.java" startLine="17" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="6035835504270143154" varName="binding" />
+      <varInfo nodeId="6035835504270143039" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504270559987" fileName="Applat_Behavior.java" startLine="19" startPosition="179" endLine="23" endPosition="5" unitName="mockup.behavior.Applat_Behavior$1" />
+    <unitInfo nodeId="6035835504270143039" fileName="Applat_Behavior.java" startLine="13" startPosition="0" endLine="27" endPosition="0" unitName="mockup.behavior.Applat_Behavior" />
+  </root>
 </debugInfo>
 

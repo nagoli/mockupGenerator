@@ -34,11 +34,11 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 9:
         return new ConceptDescriptorBuilder("mockup.structure.ParameterValue").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("parameter").children(new String[]{"value"}, new boolean[]{false}).create();
       case 10:
-        return new ConceptDescriptorBuilder("mockup.structure.Pattern").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"parameters", "components"}, new boolean[]{true, true}).alias("pattern", "").create();
+        return new ConceptDescriptorBuilder("mockup.structure.Pattern").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"parameters", "content"}, new boolean[]{true, false}).alias("pattern", "").create();
       case 11:
-        return new ConceptDescriptorBuilder("mockup.structure.PatternReference").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("pattern").children(new String[]{"parameterValues"}, new boolean[]{true}).create();
+        return new ConceptDescriptorBuilder("mockup.structure.PatternReference").super_("mockup.structure.Component").parents("mockup.structure.Component").references("pattern").children(new String[]{"parameterValues"}, new boolean[]{true}).create();
       case 12:
-        return new ConceptDescriptorBuilder("mockup.structure.Step").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"patterns"}, new boolean[]{true}).alias("step", "").create();
+        return new ConceptDescriptorBuilder("mockup.structure.Step").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"content"}, new boolean[]{true}).alias("step", "").create();
       case 13:
         return new ConceptDescriptorBuilder("mockup.structure.StringLiteral").super_("mockup.structure.Expression").parents("mockup.structure.Expression").properties("value").create();
       default:

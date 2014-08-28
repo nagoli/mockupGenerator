@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:bddc6789-7385-42fb-a99e-20bbdb471b77(mockup.textGen)/6035835504269779140">
+    <nodeInfo nodeId="6035835504269782692" fileName="StringLiteral_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6035835504269782692" fileName="StringLiteral_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6035835504269779140" fileName="StringLiteral_TextGen.java" startLine="10" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="6035835504269779140" fileName="StringLiteral_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="62" />
+    <scopeInfo nodeId="6035835504269782692" fileName="StringLiteral_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="62" />
+    <scopeInfo nodeId="6035835504269779140" fileName="StringLiteral_TextGen.java" startLine="10" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="6035835504269779140" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504269779140" fileName="StringLiteral_TextGen.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="mockup.textGen.StringLiteral_TextGen" />
+  </root>
+  <root nodeRef="r:bddc6789-7385-42fb-a99e-20bbdb471b77(mockup.textGen)/6035835504269794393">
+    <nodeInfo nodeId="6035835504269797594" fileName="ExpressionWrapper_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6035835504269797594" fileName="ExpressionWrapper_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6035835504269797594" fileName="ExpressionWrapper_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6035835504269794393" fileName="ExpressionWrapper_TextGen.java" startLine="10" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="6035835504269794393" fileName="ExpressionWrapper_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" />
+    <scopeInfo nodeId="6035835504269797594" fileName="ExpressionWrapper_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" />
+    <scopeInfo nodeId="6035835504269794393" fileName="ExpressionWrapper_TextGen.java" startLine="10" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="6035835504269794393" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="6035835504269794393" fileName="ExpressionWrapper_TextGen.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="mockup.textGen.ExpressionWrapper_TextGen" />
+  </root>
+</debugInfo>
+
