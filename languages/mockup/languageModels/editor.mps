@@ -57,6 +57,7 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6484469149691570055" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="components" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mkop.6484469149691498035" resolveInfo="Label" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6484469149691570057" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6484469149691570058" nodeInfo="nn" />
@@ -69,6 +70,7 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6484469149691583787" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="components" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mkop.6484469149691222536" resolveInfo="PatternReference" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6484469149691583849" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6484469149691583850" nodeInfo="nn" />

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="Applat_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.Applat_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="mockup.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BarreEtapes_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.BarreEtapes_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="56" endPosition="0" unitName="mockup.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="Button_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.Button_BehaviorDescriptor" />
   <unitInfo fileName="Component_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="mockup.behavior.Component_BehaviorDescriptor" />
+  <unitInfo fileName="Etape_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.Etape_BehaviorDescriptor" />
   <unitInfo fileName="ExpressionWrapper_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.ExpressionWrapper_BehaviorDescriptor" />
   <unitInfo fileName="Expression_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="mockup.behavior.Expression_BehaviorDescriptor" />
   <unitInfo fileName="Form3Element_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.Form3Element_BehaviorDescriptor" />
+  <unitInfo fileName="Heading_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.Heading_BehaviorDescriptor" />
+  <unitInfo fileName="InputText_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="mockup.behavior.InputText_BehaviorDescriptor" />
   <unitInfo fileName="Label_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.Label_BehaviorDescriptor" />
   <unitInfo fileName="Mockup_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="mockup.behavior.Mockup_BehaviorDescriptor" />
   <unitInfo fileName="ParameterReference_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="mockup.behavior.ParameterReference_BehaviorDescriptor" />

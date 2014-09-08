@@ -16,35 +16,45 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 0:
         return new ConceptDescriptorBuilder("mockup.structure.Applat").super_("mockup.structure.Component").parents("mockup.structure.Component").children(new String[]{"content"}, new boolean[]{true}).alias("applat", "").create();
       case 1:
-        return new ConceptDescriptorBuilder("mockup.structure.Component").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
+        return new ConceptDescriptorBuilder("mockup.structure.BarreEtapes").super_("mockup.structure.Component").parents("mockup.structure.Component").children(new String[]{"elements"}, new boolean[]{true}).create();
       case 2:
-        return new ConceptDescriptorBuilder("mockup.structure.Expression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
+        return new ConceptDescriptorBuilder("mockup.structure.Button").super_("mockup.structure.Component").parents("mockup.structure.Component").properties("text").create();
       case 3:
-        return new ConceptDescriptorBuilder("mockup.structure.ExpressionWrapper").super_("jetbrains.mps.core.xml.structure.XmlContent").parents("jetbrains.mps.core.xml.structure.XmlContent").children(new String[]{"expression"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("mockup.structure.Component").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 4:
-        return new ConceptDescriptorBuilder("mockup.structure.Form3Element").super_("mockup.structure.Component").parents("mockup.structure.Component").children(new String[]{"libelle", "values"}, new boolean[]{false, true}).alias("field", "").create();
+        return new ConceptDescriptorBuilder("mockup.structure.Etape").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("label", "id", "active").create();
       case 5:
-        return new ConceptDescriptorBuilder("mockup.structure.Label").super_("mockup.structure.Component").parents("mockup.structure.Component").children(new String[]{"text"}, new boolean[]{false}).alias("label", "").create();
+        return new ConceptDescriptorBuilder("mockup.structure.Expression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 6:
-        return new ConceptDescriptorBuilder("mockup.structure.Mockup").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"top", "bottom", "steps"}, new boolean[]{true, true, true}).alias("sequence", "").create();
+        return new ConceptDescriptorBuilder("mockup.structure.ExpressionWrapper").super_("jetbrains.mps.core.xml.structure.XmlContent").parents("jetbrains.mps.core.xml.structure.XmlContent").children(new String[]{"expression"}, new boolean[]{false}).create();
       case 7:
-        return new ConceptDescriptorBuilder("mockup.structure.Parameter").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").create();
+        return new ConceptDescriptorBuilder("mockup.structure.Form3Element").super_("mockup.structure.Component").parents("mockup.structure.Component").children(new String[]{"libelle", "values"}, new boolean[]{false, true}).alias("field", "").create();
       case 8:
-        return new ConceptDescriptorBuilder("mockup.structure.ParameterReference").super_("mockup.structure.Expression").parents("mockup.structure.Expression").references("parameter").create();
+        return new ConceptDescriptorBuilder("mockup.structure.Heading").super_("mockup.structure.Component").parents("mockup.structure.Component").properties("text").create();
       case 9:
-        return new ConceptDescriptorBuilder("mockup.structure.ParameterValue").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("parameter").children(new String[]{"value"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("mockup.structure.InputText").super_("mockup.structure.Component").parents("mockup.structure.Component").properties("value").create();
       case 10:
-        return new ConceptDescriptorBuilder("mockup.structure.Pattern").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"parameters", "content"}, new boolean[]{true, false}).alias("pattern", "").create();
+        return new ConceptDescriptorBuilder("mockup.structure.Label").super_("mockup.structure.Component").parents("mockup.structure.Component").children(new String[]{"text"}, new boolean[]{false}).alias("label", "").create();
       case 11:
-        return new ConceptDescriptorBuilder("mockup.structure.PatternReference").super_("mockup.structure.Component").parents("mockup.structure.Component").references("pattern").children(new String[]{"parameterValues"}, new boolean[]{true}).create();
+        return new ConceptDescriptorBuilder("mockup.structure.Mockup").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("title").children(new String[]{"top", "bottom", "steps"}, new boolean[]{true, true, true}).alias("sequence", "").create();
       case 12:
-        return new ConceptDescriptorBuilder("mockup.structure.Step").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"content"}, new boolean[]{true}).alias("step", "").create();
+        return new ConceptDescriptorBuilder("mockup.structure.Parameter").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").create();
       case 13:
+        return new ConceptDescriptorBuilder("mockup.structure.ParameterReference").super_("mockup.structure.Expression").parents("mockup.structure.Expression").references("parameter").create();
+      case 14:
+        return new ConceptDescriptorBuilder("mockup.structure.ParameterValue").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("parameter").children(new String[]{"value"}, new boolean[]{false}).create();
+      case 15:
+        return new ConceptDescriptorBuilder("mockup.structure.Pattern").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"parameters", "content"}, new boolean[]{true, false}).alias("pattern", "").create();
+      case 16:
+        return new ConceptDescriptorBuilder("mockup.structure.PatternReference").super_("mockup.structure.Component").parents("mockup.structure.Component").references("pattern").children(new String[]{"parameterValues"}, new boolean[]{true}).create();
+      case 17:
+        return new ConceptDescriptorBuilder("mockup.structure.Step").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"content"}, new boolean[]{true}).alias("step", "").create();
+      case 18:
         return new ConceptDescriptorBuilder("mockup.structure.StringLiteral").super_("mockup.structure.Expression").parents("mockup.structure.Expression").properties("value").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"mockup.structure.Applat", "mockup.structure.Component", "mockup.structure.Expression", "mockup.structure.ExpressionWrapper", "mockup.structure.Form3Element", "mockup.structure.Label", "mockup.structure.Mockup", "mockup.structure.Parameter", "mockup.structure.ParameterReference", "mockup.structure.ParameterValue", "mockup.structure.Pattern", "mockup.structure.PatternReference", "mockup.structure.Step", "mockup.structure.StringLiteral"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"mockup.structure.Applat", "mockup.structure.BarreEtapes", "mockup.structure.Button", "mockup.structure.Component", "mockup.structure.Etape", "mockup.structure.Expression", "mockup.structure.ExpressionWrapper", "mockup.structure.Form3Element", "mockup.structure.Heading", "mockup.structure.InputText", "mockup.structure.Label", "mockup.structure.Mockup", "mockup.structure.Parameter", "mockup.structure.ParameterReference", "mockup.structure.ParameterValue", "mockup.structure.Pattern", "mockup.structure.PatternReference", "mockup.structure.Step", "mockup.structure.StringLiteral"};
 }

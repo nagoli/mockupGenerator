@@ -20,14 +20,25 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="mockup.behavior.BarreEtapes_BehaviorDescriptor" file="BarreEtapes_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="mockup.behavior.Component_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="mockup.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
     <classNode dependClassName="mockup.behavior.Applat_BehaviorDescriptor" />
+    <classNode dependClassName="mockup.behavior.BarreEtapes_BehaviorDescriptor" />
+    <classNode dependClassName="mockup.behavior.Button_BehaviorDescriptor" />
+    <classNode dependClassName="mockup.behavior.Etape_BehaviorDescriptor" />
     <classNode dependClassName="mockup.behavior.ExpressionWrapper_BehaviorDescriptor" />
     <classNode dependClassName="mockup.behavior.Form3Element_BehaviorDescriptor" />
+    <classNode dependClassName="mockup.behavior.Heading_BehaviorDescriptor" />
+    <classNode dependClassName="mockup.behavior.InputText_BehaviorDescriptor" />
     <classNode dependClassName="mockup.behavior.Label_BehaviorDescriptor" />
     <classNode dependClassName="mockup.behavior.Mockup_BehaviorDescriptor" />
     <classNode dependClassName="mockup.behavior.ParameterReference_BehaviorDescriptor" />
@@ -38,6 +49,12 @@
     <classNode dependClassName="mockup.behavior.Step_BehaviorDescriptor" />
     <classNode dependClassName="mockup.behavior.StringLiteral_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="mockup.behavior.Button_BehaviorDescriptor" file="Button_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="mockup.behavior.Component_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="mockup.behavior.Component_Behavior" file="Component_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
@@ -57,6 +74,12 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="mockup.behavior.Component_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="mockup.behavior.Etape_BehaviorDescriptor" file="Etape_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="mockup.behavior.ExpressionWrapper_BehaviorDescriptor" file="ExpressionWrapper_BehaviorDescriptor.java">
@@ -102,6 +125,18 @@
     <classNode dependClassName="mockup.behavior.Component_BehaviorDescriptor" />
     <classNode dependClassName="mockup.behavior.Form3Element_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="mockup.behavior.Heading_BehaviorDescriptor" file="Heading_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="mockup.behavior.Component_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="mockup.behavior.InputText_BehaviorDescriptor" file="InputText_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="mockup.behavior.Component_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="mockup.behavior.Label_Behavior" file="Label_Behavior.java">

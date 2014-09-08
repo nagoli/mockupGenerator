@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="3p20iovxe5jy7vnjte0w9eujhlidofv">
+<dependencies version="2" modelHash="-2ixx7cwprdtddqwc18gsy25d711acew">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
@@ -11,8 +11,9 @@
   <dep model="r:00000000-0000-4000-0000-011c895902f4(jetbrains.mps.lang.generator.generationContext.generator.baseLanguage.template.main@generator)" hash="-bvnrxlw08cm6ent2z814f9sjqfl7iby" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="2rw431aummgwrvc6vvrvyxnd6ddlzo0" />
-  <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" hash="bsw722lcd7glna46c48pxndailz58pt" />
+  <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" hash="-3lytc43v9oovt41x7x73bp8ko30aqvs" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="e5zswcvgdspmt039m3gg97emcadi0ez" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-8chtguhcvj45cjy0bx3xiqekte2lox7" />
   <common hash="3291x3dj8kig2iltxrx7kposn1uv60k" dependsOnNodes="true">
@@ -27,6 +28,10 @@
     <dep root="7308103362966842217" />
     <dep root="7308103362966853965" />
     <dep root="7308103362967215263" />
+    <dep root="8429808266675748607" />
+    <dep root="8429808266675808272" />
+    <dep root="8429808266675813641" />
+    <dep root="8429808266675840349" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
@@ -40,24 +45,29 @@
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
     <dep model="r:303baaec-656c-4e48-b114-7930d25c33ad(mockup.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="6484469149691179259" name="main" hash="-274z7ha4qk3n3f3ivxsyp5dpdxgbq8q">
+  <source id="6484469149691179259" name="main" hash="-pq0vdzkox40g495t5oe6sy7exvec1l">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="6484469149691696659" name="map_Mockup" hash="-2lksqxa6e9pr3fywfuc992ujfjbpsnp" />
-  <source id="6484469149691706035" name="reduce_Step" hash="-a495pj6am54qraiwng4t0fg2gah2h9h" />
-  <source id="6484469149691729158" name="reduce_PatternReference" hash="bp3ochhs24mv7bpglj7q1rj68pziuxo" />
-  <source id="6484469149691746382" name="reduce_Form3Element" hash="6h284hdj9fa08wqvsj31zhrhxb1l1bg" />
-  <source id="6035835504269777956" name="reduce_Applat" hash="-1sp1o72syp4n74wugsncl08jevppls6" />
-  <source id="6035835504269777962" name="reduce_Label" hash="8s99v9holc180mutrduv9j95x0r88m5" />
-  <source id="7308103362966596843" name="eval_Pattern" hash="-dqejuh811e90urdacwnhxgss8ujkhj0" />
-  <source id="7308103362966644785" name="eval_Applat" hash="vojfu24ghzm5i2hv66ik5lypy04d09" />
-  <source id="7308103362966782818" name="eval_Form3Element" hash="-6e0c87l792yy27p5nujweitrd8q3i2o" />
-  <source id="7308103362966842217" name="eval_Label" hash="-etfgvi24pf0z0z2bm5exjg0q1zvt6nb" />
+  <source id="6484469149691696659" name="map_Mockup" hash="-59dogialrva1lxynnk5b51tbtjeasf2" />
+  <source id="6484469149691706035" name="reduce_Step" hash="bq1htie5tm411s9daylm6l53v53zecz" />
+  <source id="6484469149691729158" name="reduce_PatternReference" hash="-2zp9a2vp349atvoe9dv738r96ndn3zj" />
+  <source id="6484469149691746382" name="reduce_Form3Element" hash="-e03kryluhe0x4al63non24t8upg1q3w" />
+  <source id="6035835504269777956" name="reduce_Applat" hash="-6yz3qpr80g71r5oic2azu6vez8n1leu" />
+  <source id="6035835504269777962" name="reduce_Label" hash="9hw3bmbnluvq4e4gfw2nmdrra6o5qlv" />
+  <source id="7308103362966596843" name="eval_Pattern" hash="-3qwrbz260sx2ku7vb1xdaf0wpqv1n8i" />
+  <source id="7308103362966644785" name="eval_Applat" hash="615wltbfk9iob8rqidiut5u5x3oagv" />
+  <source id="7308103362966782818" name="eval_Form3Element" hash="-4l47ddn4cn6yonk7fph3wn4k1za8otd" />
+  <source id="7308103362966842217" name="eval_Label" hash="-dcbm79ypyyuwmyvyyrv2zerbfjya7bg" />
   <source id="7308103362966853965" name="eval_Expression" hash="bbklgui92ry1hrnsa9r1n8cwrcsxzn5" />
-  <source id="7308103362967215263" name="eval_PatternReference" hash="-a2xtbgajsaylr7m3g9d9g21d49772i3" />
+  <source id="7308103362967215263" name="eval_PatternReference" hash="-e3s5dwy9zwrwiy0cmvtuu05m0ee2n77" />
+  <source id="8429808266675748607" name="reduce_Button" hash="-adknsbalshgtmz7ryj8xqnt7ovhm4e1" />
+  <source id="8429808266675808272" name="reduce_Heading" hash="-ep6t26s0sd06k10f6cp9dbhp2sstkiq" />
+  <source id="8429808266675813641" name="reduce_BarreEtapes" hash="-69s9u28vdxqin4mus7cpt2rayhwcgki" />
+  <source id="8429808266675840349" name="reduce_InputText" hash="a2n8bs113mslj6153urzxfo961uant3" />
 </dependencies>
 
