@@ -10,31 +10,32 @@
         <property name="value" nameId="mkop.6484469149691507456" value="au revoir" />
       </node>
     </node>
-    <node role="steps" roleId="mkop.6484469149691220287" type="mkop.Step" typeId="mkop.6484469149691220391" id="6484469149691583700" nodeInfo="ng">
-      <node role="content" roleId="mkop.6484469149691220392" type="mkop.PatternReference" typeId="mkop.6484469149691222536" id="6484469149691583702" nodeInfo="ng">
-        <link role="pattern" roleId="mkop.6484469149691222537" targetNodeId="6484469149691449132" resolveInfo="demandeHeureAccident" />
-        <node role="parameterValues" roleId="mkop.6484469149691583755" type="mkop.ParameterValue" typeId="mkop.6484469149691583758" id="812675757533036081" nodeInfo="ng">
-          <link role="parameter" roleId="mkop.6484469149691583759" targetNodeId="6484469149691449135" resolveInfo="message" />
-          <node role="value" roleId="mkop.6484469149691583761" type="mkop.StringLiteral" typeId="mkop.6484469149691507455" id="812675757533036085" nodeInfo="ng">
-            <property name="value" nameId="mkop.6484469149691507456" value="hello louis" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="steps" roleId="mkop.6484469149691220287" type="mkop.Step" typeId="mkop.6484469149691220391" id="6484469149691727276" nodeInfo="ng">
-      <node role="content" roleId="mkop.6484469149691220392" type="mkop.PatternReference" typeId="mkop.6484469149691222536" id="6484469149691727277" nodeInfo="ng">
-        <link role="pattern" roleId="mkop.6484469149691222537" targetNodeId="6484469149691449132" resolveInfo="demandeHeureAccident" />
-        <node role="parameterValues" roleId="mkop.6484469149691583755" type="mkop.ParameterValue" typeId="mkop.6484469149691583758" id="6484469149691727278" nodeInfo="ng">
-          <link role="parameter" roleId="mkop.6484469149691583759" targetNodeId="6484469149691449135" resolveInfo="message" />
-          <node role="value" roleId="mkop.6484469149691583761" type="mkop.StringLiteral" typeId="mkop.6484469149691507455" id="6484469149691727279" nodeInfo="ng">
-            <property name="value" nameId="mkop.6484469149691507456" value="hello olivier" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="top" roleId="mkop.6484469149691220282" type="mkop.Label" typeId="mkop.6484469149691498035" id="6035835504270836683" nodeInfo="ng">
       <node role="text" roleId="mkop.6484469149691507452" type="mkop.StringLiteral" typeId="mkop.6484469149691507455" id="6035835504270836689" nodeInfo="ng">
         <property name="value" nameId="mkop.6484469149691507456" value="coucou" />
+      </node>
+    </node>
+    <node role="steps" roleId="mkop.6484469149691220287" type="mkop.Step" typeId="mkop.6484469149691220391" id="6411428249689401497" nodeInfo="ng">
+      <node role="content" roleId="mkop.6484469149691220392" type="mkop.Label" typeId="mkop.6484469149691498035" id="6411428249689401501" nodeInfo="ng">
+        <node role="text" roleId="mkop.6484469149691507452" type="mkop.StringLiteral" typeId="mkop.6484469149691507455" id="6411428249689401507" nodeInfo="ng">
+          <property name="value" nameId="mkop.6484469149691507456" value="step1 a" />
+        </node>
+      </node>
+      <node role="content" roleId="mkop.6484469149691220392" type="mkop.Label" typeId="mkop.6484469149691498035" id="6411428249689533901" nodeInfo="ng">
+        <node role="text" roleId="mkop.6484469149691507452" type="mkop.StringLiteral" typeId="mkop.6484469149691507455" id="6411428249689533909" nodeInfo="ng">
+          <property name="value" nameId="mkop.6484469149691507456" value="step1 b" />
+        </node>
+      </node>
+    </node>
+    <node role="steps" roleId="mkop.6484469149691220287" type="mkop.Step" typeId="mkop.6484469149691220391" id="6411428249689401510" nodeInfo="ng">
+      <node role="content" roleId="mkop.6484469149691220392" type="mkop.PatternReference" typeId="mkop.6484469149691222536" id="6411428249689611236" nodeInfo="ng">
+        <link role="pattern" roleId="mkop.6484469149691222537" targetNodeId="6484469149691449132" resolveInfo="demandeHeureAccident" />
+        <node role="parameterValues" roleId="mkop.6484469149691583755" type="mkop.ParameterValue" typeId="mkop.6484469149691583758" id="6411428249689611238" nodeInfo="ng">
+          <link role="parameter" roleId="mkop.6484469149691583759" targetNodeId="6484469149691449135" resolveInfo="message" />
+          <node role="value" roleId="mkop.6484469149691583761" type="mkop.StringLiteral" typeId="mkop.6484469149691507455" id="6411428249689611242" nodeInfo="ng">
+            <property name="value" nameId="mkop.6484469149691507456" value="coucou" />
+          </node>
+        </node>
       </node>
     </node>
   </root>
